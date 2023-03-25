@@ -1,10 +1,13 @@
-
-import './App.css';
-
+import "./App.css";
+import { Left } from "./components/Left";
+import { Right } from "./components/Right";
 function App() {
   return (
     <div className="App">
-      <h1>Hello world</h1>
+      <div className="container">
+        <Left />
+        <Right />
+      </div>
     </div>
   );
 }
