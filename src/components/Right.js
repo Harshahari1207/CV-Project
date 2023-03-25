@@ -6,10 +6,10 @@ import { Education } from "./Education";
 class Right extends Component {
   render() {
     return (
-      <div className="main">
+      <div className="right">
         <h2>Right</h2>
         <Profile />
-        <div className="subMain">
+        <div className="main">
           <Projects />
           <Education />
         </div>

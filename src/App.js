@@ -1,4 +1,5 @@
 import "./App.css";
+import { Footer } from "./components/Footer";
 import { Left } from "./components/Left";
 import { Right } from "./components/Right";
 function App() {
@@ -8,6 +9,7 @@ function App() {
         <Left />
         <Right />
       </div>
+      <Footer />
     </div>
   );
 }
