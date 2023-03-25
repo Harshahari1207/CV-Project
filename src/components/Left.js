@@ -12,7 +12,7 @@ class Left extends Component {
   render() {
     return (
       <div className="left">
-        <h2>Left</h2>
+        
         <div className="profileImg">
           <h2>Image</h2>
         </div>
