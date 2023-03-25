@@ -7,7 +7,7 @@ class Right extends Component {
   render() {
     return (
       <div className="right">
-        <h2>Right</h2>
+        {/* <h2>Right</h2> */}
         <Profile />
         <div className="main">
           <Projects />
