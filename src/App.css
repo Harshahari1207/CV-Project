@@ -52,6 +52,7 @@ ul, p{
 }
 .main{
   padding-left: 100px;
+  text-align: left;
 }
 /* 
 .App-logo {
