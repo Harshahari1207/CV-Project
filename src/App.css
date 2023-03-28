@@ -39,6 +39,17 @@ ul, p{
   text-align: start;
 }
 
+img{
+  width: 80px;
+  border-radius: 50%;
+}
+
+.profileImg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 70px;
+}
 .right{
   grid-template-columns: 2/3;
   /* background-color: var(--secondary); */
