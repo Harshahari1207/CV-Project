@@ -48,7 +48,7 @@ button:hover{
   align-items: flex-start;
   padding: calc(var(--pd)*2);
 }
-.contact, .skills, .interests, .profile, .projects{
+.contact, .skills, .interests, .profile, .projects, .education{
   padding: var(--pd);
   display: flex;
 }

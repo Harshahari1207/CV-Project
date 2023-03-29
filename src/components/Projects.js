@@ -55,7 +55,7 @@ class Projects extends Component {
     });
   };
   render() {
-    const { projects, projectTitle, description, edit } = this.state;
+    const { projects,  edit } = this.state;
     return (
       <div className="projects">
         <div className="head1">
