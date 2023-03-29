@@ -6,7 +6,7 @@ class Interests extends Component {
       <div className="interests">
         <div className="head">
           <h3>Interests</h3>
-          <button>Add</button>
+          <button>Edit</button>
         </div>
         <div className="body">
           <ul>

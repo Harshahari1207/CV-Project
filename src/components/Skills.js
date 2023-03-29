@@ -6,7 +6,7 @@ class Skills extends Component {
       <div className="skills">
         <div className="head">
           <h3>Skills</h3>
-          <button>Add</button>
+          <button>Edit</button>
         </div>
         <div className="body">
           <ul>

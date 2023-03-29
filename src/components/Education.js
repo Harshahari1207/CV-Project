@@ -6,7 +6,7 @@ class Education extends Component {
       <div className="education">
         <div className="head">
           <h3>Education</h3>
-          <button>Add</button>
+          <button>Edit</button>
         </div>
         <div className="body">
           <h4>Bachelores of Technology</h4>

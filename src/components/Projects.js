@@ -6,7 +6,7 @@ class Projects extends Component {
       <div className="projects">
         <div className="head">
           <h3>Projects</h3>
-          <button>Add</button>
+          <button>Edit</button>
         </div>
         <div className="body">
           <div className="projectsContents">

@@ -1,7 +1,8 @@
 *{
   --primary: rgb(240, 205, 205);
   --secondary: rgb(118, 118, 214);
-
+  --darSecondary: rgb(102, 73, 231);
+  --white: rgb(239, 235, 235);
   --br: 5px;
   --pd: 5px;
   --gap: 5px;
@@ -24,6 +25,19 @@
   border-radius: calc(var(--br)*3);
 }
 
+button{
+  padding: var(--pd);
+  border-radius: var(--br);
+  border: 0;
+  background-color: var(--secondary);
+  color: var(--white);
+  width: 50px;
+  height: 30px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: var(--darSecondary);
+}
 .left{
   grid-template-columns: 1/2;
   /* background-color: var(--primary); */
@@ -32,16 +46,18 @@
   align-items: flex-start;
   padding: calc(var(--pd)*2);
 }
-.contact, .skills{
-  padding: calc(var(--pd)*5);
+.contact, .skills, .interests{
+  padding: var(--pd);
+  display: flex;
 }
-ul, p{
+ul, p, h3, h4{
   text-align: start;
 }
 
 img{
   width: 80px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .profileImg{
@@ -75,6 +91,31 @@ img{
   justify-content: space-between;
   align-items: center;
   
+}
+
+form{
+  width: 300px;
+  position: absolute;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary);
+  border-radius: var(--br);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap);
+  padding: var(--pd);
+}
+
+form input{
+  border-radius: calc(var(--br)*.5);
+  border: 0;
+}
+
+form button{
+  width: 100px;
 }
 /* 
 .App-logo {
