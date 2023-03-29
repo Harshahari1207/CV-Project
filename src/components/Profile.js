@@ -61,12 +61,14 @@ class Profile extends Component {
               />
               <label htmlFor="profile">Profile</label>
               <input
-                type="text"
+                type="textarea"
                 id="profile"
                 value={profile}
                 onChange={this.handleProfileChange}
+                rows={3}
+                cols={5}
               />
-              <button type="button" onClick={this.toggleEdit}>
+              <button className="editToggle" type="button" onClick={this.toggleEdit}>
                 Close Edit 
               </button>
             </form>
