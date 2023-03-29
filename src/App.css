@@ -1,4 +1,4 @@
-*{
+* {
   --primary: rgb(240, 205, 205);
   --secondary: rgb(118, 118, 214);
   --darSecondary: rgb(102, 73, 231);
@@ -16,16 +16,17 @@
   align-items: center;
 }
 
-.container{
+.container {
   width: 55%;
-  
+
   background-color: antiquewhite;
   display: grid;
-  grid-template: auto / 1.5fr 2fr ;
-  border-radius: calc(var(--br)*3);
+  grid-template: auto / 1.5fr 2fr;
+  border-radius: calc(var(--br) * 3);
 }
 
-button{
+button {
+  display: none;
   position: relative;
   padding: var(--pd);
   border-radius: var(--br);
@@ -36,68 +37,81 @@ button{
   height: 30px;
   cursor: pointer;
   top: 20px;
+  align-items: center;
+  justify-content: center;
 }
-button:hover{
+.contact:hover button,
+.skills:hover button,
+.interests:hover button,
+.profile:hover button,
+.projects:hover button,
+.education:hover button {
+  display: flex;
+}
+button:hover {
   background-color: var(--darSecondary);
 }
-.left{
+.left {
   grid-template-columns: 1/2;
   /* background-color: var(--primary); */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: calc(var(--pd)*2);
+  padding: calc(var(--pd) * 2);
 }
-.contact, .skills, .interests, .profile, .projects, .education{
+.contact,
+.skills,
+.interests,
+.profile,
+.projects,
+.education {
   padding: var(--pd);
   display: flex;
 }
-ul, p, h3, h4{
+ul,
+p,
+h3,
+h4 {
   text-align: start;
 }
 
-img{
+img {
   width: 80px;
   border-radius: 50%;
   cursor: pointer;
 }
 
-.profileImg{
+.profileImg {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-left: 70px;
 }
-.right{
+.right {
   grid-template-columns: 2/3;
   /* background-color: var(--secondary); */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  
 }
 
-.profile{
-  padding: calc(var(--pd)*2);
+.profile {
+  padding: calc(var(--pd) * 2);
   text-align: left;
 }
-.main{
+.main {
   padding-left: 50px;
   padding-right: 15px;
   text-align: left;
-  
 }
 
-.head{
+.head {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
-
-
-form{
+form {
   width: 300px;
   position: absolute;
   display: flex;
@@ -110,21 +124,21 @@ form{
   padding: var(--pd);
 }
 
-form input{
-  border-radius: calc(var(--br)*.5);
+form input {
+  border-radius: calc(var(--br) * 0.5);
   border: 0;
 }
 
-form button{
+form button {
   width: 100px;
   right: 0;
   top: 0;
 }
-.formButtons{
+.formButtons {
   position: relative;
   display: flex;
   justify-content: space-around;
-  gap: calc(var(--gap)*3);
+  gap: calc(var(--gap) * 3);
 }
 /* 
 .App-logo {
