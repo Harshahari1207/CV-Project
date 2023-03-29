@@ -93,9 +93,9 @@ class Skills extends Component {
         {edit && (
           <div className="skillForm">
             <form>
-              <label htmlFor="skill">Skill</label>
+              <label htmlFor="skills">Skill</label>
               <input
-                id="skill"
+                id="skills"
                 type="text"
                 value={skill}
                 onChange={this.handleSkillChange}

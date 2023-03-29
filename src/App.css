@@ -48,7 +48,7 @@ button:hover{
   align-items: flex-start;
   padding: calc(var(--pd)*2);
 }
-.contact, .skills, .interests{
+.contact, .skills, .interests, .profile{
   padding: var(--pd);
   display: flex;
 }
@@ -118,6 +118,7 @@ form input{
 form button{
   width: 100px;
   right: 0;
+  top: 0;
 }
 .formButtons{
   position: relative;
