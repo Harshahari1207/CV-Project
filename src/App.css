@@ -140,6 +140,11 @@ form button {
   justify-content: space-around;
   gap: calc(var(--gap) * 3);
 }
+#profileImgFormButton, #closeButtonProfileImgFormButton{
+  width: 100px;
+  position: relative;
+  display: flex;
+}
 /* 
 .App-logo {
   height: 40vmin;
