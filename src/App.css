@@ -145,6 +145,10 @@ form button {
   position: relative;
   display: flex;
 }
+.instructionDiv{
+  display: none;
+}
+
 /* 
 .App-logo {
   height: 40vmin;
