@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import img from "../img/myImage.jpg";
+import img from "../img/my1.jpg";
 
 const ProfileImg = () => {
   const [image, setImage] = useState(img);
